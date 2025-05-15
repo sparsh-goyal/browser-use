@@ -57,6 +57,21 @@ dependencies = [
 memory = [
     "sentence-transformers>=4.0.2",
 ]
+dev = [
+    "ruff>=0.11.2",
+    "tokencost>=0.1.16",
+    "build>=1.2.2",
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.24.0",
+    "fastapi>=0.115.8",
+    "inngest>=0.4.19",
+    "uvicorn>=0.34.0",
+    "langchain-fireworks>=0.2.6",
+    "ipdb>=0.13.13",
+    "pre-commit>=4.2.0",
+    "codespell>=2.4.1",
+    "pyright>=1.1.399",
+]
 
 [project.urls]
 Repository = "https://github.com/browser-use/browser-use"
